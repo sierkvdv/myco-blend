@@ -1,6 +1,7 @@
 import { Navbar } from '@/components/Navbar'
 import { Hero } from '@/components/Hero'
 import { Mushrooms } from '@/components/Mushrooms'
+import { Research } from '@/components/Research'
 import { About } from '@/components/About'
 import { Process } from '@/components/Process'
 import { CTA } from '@/components/CTA'
@@ -13,6 +14,7 @@ export default function HomePage() {
       <main>
         <Hero />
         <Mushrooms />
+        <Research />
         <About />
         <Process />
         <CTA />
