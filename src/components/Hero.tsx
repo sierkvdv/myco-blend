@@ -1,19 +1,30 @@
+'use client'
+
 import { useTranslations } from 'next-intl'
-import Image from 'next/image'
+import { useEffect, useRef } from 'react'
 
 export function Hero() {
   const t = useTranslations('hero')
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (video) {
+      video.muted = true
+      video.play().catch(() => {})
+    }
+  }, [])
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
       {/* Background video */}
       <div className="absolute inset-0">
         <video
-          autoPlay={true}
-          loop={true}
-          muted={true}
-          playsInline={true}
-          webkit-playsinline="true"
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
           preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
         >
