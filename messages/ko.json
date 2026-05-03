@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "brand": "MYCO BLEND",
+    "mushrooms": "버섯 성분",
+    "about": "브랜드 소개",
+    "process": "제조 공정",
+    "buy": "구매하기"
+  },
+  "hero": {
+    "tagline": "자연의 균형",
+    "title": "5가지 프리미엄 버섯의\n완벽한 조화",
+    "subtitle": "수천 년의 동아시아 전통 식문화에서 영감을 받아, 엄선된 5가지 기능성 버섯을 정밀 추출·블렌딩하였습니다.",
+    "cta_primary": "제품 알아보기",
+    "cta_secondary": "성분 보기",
+    "disclaimer": "본 제품은 식품이며, 질병의 예방·진단·치료를 목적으로 하지 않습니다."
+  },
+  "mushrooms": {
+    "title": "5가지 핵심 성분",
+    "subtitle": "전통 동아시아 식문화에서 오랫동안 사용되어 온 버섯들을 현대적인 방법으로 추출하였습니다.",
+    "items": {
+      "cordyceps": {
+        "name": "동충하초",
+        "latin": "Cordyceps militaris",
+        "origin": "히말라야 원산",
+        "description": "히말라야 고원 지대에서 자생하는 동충하초는 티베트 전통 식문화에서 수백 년간 사용되어 온 귀한 식재료입니다. 독특한 생애주기로 인해 예로부터 자연의 경이로운 산물로 여겨졌습니다.",
+        "traditional_use": "티베트·중국 전통 식문화",
+        "beta_glucan": "β-글루칸 28%"
+      },
+      "lions_mane": {
+        "name": "노루궁뎅이버섯",
+        "latin": "Hericium erinaceus",
+        "origin": "아시아·북미 원산",
+        "description": "사자의 갈기를 닮은 독특한 외형을 가진 노루궁뎅이버섯은 중국, 한국, 일본의 전통 요리와 식문화에서 오래전부터 활용되어 온 식재료입니다.",
+        "traditional_use": "동아시아 전통 식문화",
+        "beta_glucan": "β-글루칸 35%"
+      },
+      "reishi": {
+        "name": "영지버섯",
+        "latin": "Ganoderma lucidum",
+        "origin": "아시아 원산",
+        "description": "영지버섯은 중국과 한국의 전통 식문화에서 '신의 버섯'으로 불리며 수천 년의 역사를 자랑합니다. 아름다운 광택을 지닌 외형으로 예술 작품에도 자주 등장합니다.",
+        "traditional_use": "한중 전통 식문화 4,000년",
+        "beta_glucan": "β-글루칸 30%"
+      },
+      "chaga": {
+        "name": "차가버섯",
+        "latin": "Inonotus obliquus",
+        "origin": "시베리아·북유럽 원산",
+        "description": "차가버섯은 시베리아와 북유럽의 추운 자작나무 숲에서 자라며, 수백 년간 러시아와 스칸디나비아 전통 음료 문화에서 차로 끓여 마시는 식재료로 사용되어 왔습니다.",
+        "traditional_use": "시베리아·러시아 전통 식문화",
+        "beta_glucan": "β-글루칸 25%"
+      },
+      "turkey_tail": {
+        "name": "구름버섯",
+        "latin": "Trametes versicolor",
+        "origin": "전 세계 분포",
+        "description": "칠면조 꼬리를 닮은 선명한 줄무늬가 특징인 구름버섯은 전 세계에서 가장 연구가 많이 된 버섯 중 하나입니다. 중국 전통 의학에서는 '운지(雲芝)'라 불리며 오랜 식문화 역사를 갖고 있습니다.",
+        "traditional_use": "중국 전통 식문화 '운지'",
+        "beta_glucan": "β-글루칸 38%"
+      }
+    }
+  },
+  "about": {
+    "badge": "MYCO BLEND 소개",
+    "title": "전통과 현대 과학의\n만남",
+    "description1": "MYCO BLEND는 동아시아의 수천 년 버섯 식문화 전통에서 영감을 받아 탄생했습니다. 저희는 전통적으로 귀하게 여겨온 5가지 버섯을 현대적인 추출 기술로 정제하여 일상에서 쉽게 즐길 수 있는 프리미엄 블렌드를 만들어냅니다.",
+    "description2": "모든 원료는 지속 가능한 방식으로 수확하며, 각 배치는 독립된 제3자 기관에서 순도와 β-글루칸 함량을 검증합니다. 저희의 사명은 자연이 제공하는 최상의 것을 여러분의 식탁에 정직하게 전달하는 것입니다.",
+    "stat1_value": "5가지",
+    "stat1_label": "핵심 버섯 성분",
+    "stat2_value": "100%",
+    "stat2_label": "자실체 추출물",
+    "stat3_value": "3rd Party",
+    "stat3_label": "독립 기관 검증",
+    "stat4_value": "무첨가",
+    "stat4_label": "필러·증량제 없음"
+  },
+  "process": {
+    "title": "엄격한 4단계 제조 공정",
+    "subtitle": "최고 품질의 제품을 위해 모든 단계에서 타협하지 않습니다.",
+    "steps": {
+      "harvest": {
+        "number": "01",
+        "title": "수확",
+        "description": "최적의 생장 환경에서 재배된 버섯 자실체를 β-글루칸 함량이 가장 높은 시점에 수확합니다. 모든 원료는 추적 가능한 공급망을 통해 조달됩니다."
+      },
+      "extract": {
+        "number": "02",
+        "title": "추출",
+        "description": "물 추출과 알코올 추출을 병행하는 이중 추출 공법으로 수용성·지용성 성분을 모두 포집합니다. 저온 처리로 활성 성분의 손실을 최소화합니다."
+      },
+      "verify": {
+        "number": "03",
+        "title": "검증",
+        "description": "독립된 제3자 인증 기관에서 β-글루칸 함량, 중금속 불검출, 마이코톡신 안전성, 미생물 기준을 각각 검증합니다. 기준 미달 배치는 전량 폐기합니다."
+      },
+      "blend": {
+        "number": "04",
+        "title": "블렌딩",
+        "description": "GMP 인증 시설에서 정밀 계량을 통해 5가지 추출물을 최적의 비율로 혼합합니다. 질소 충전 포장으로 신선도를 보장합니다."
+      }
+    }
+  },
+  "cta": {
+    "badge": "지금 시작하세요",
+    "title": "당신의 웰니스 루틴에\n자연을 더하세요",
+    "subtitle": "MYCO BLEND는 매일 아침 커피, 스무디, 따뜻한 음료에 간편하게 혼합할 수 있습니다.",
+    "primary": "지금 구매하기",
+    "secondary": "성분 더 알아보기",
+    "disclaimer": "본 제품은 식품이며, 질병의 예방·진단·치료를 목적으로 하지 않습니다.",
+    "feature1": "무료 배송 (50,000원 이상)",
+    "feature2": "30일 만족 보장",
+    "feature3": "정기 구독 15% 할인"
+  },
+  "footer": {
+    "brand": "MYCO BLEND",
+    "tagline": "자연의 균형을 일상에",
+    "disclaimer_title": "식품 안전 고지",
+    "disclaimer_full": "본 제품은 식품이며, 질병의 예방·진단·치료를 목적으로 하지 않습니다. 본 제품의 모든 설명은 전통적인 식문화 관행에 기반하며, 특정 효능·효과를 표방하지 않습니다. 섭취 전 전문 의료인과 상담하시기 바랍니다.",
+    "links_product": "제품",
+    "links_about": "소개",
+    "links_process": "제조 공정",
+    "links_faq": "자주 묻는 질문",
+    "links_contact": "고객센터",
+    "links_privacy": "개인정보처리방침",
+    "links_terms": "이용약관",
+    "copyright": "© 2024 MYCO BLEND. All rights reserved.",
+    "mfds_note": "식품의약품안전처 신고필"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "brand": "MYCO BLEND",
+    "mushrooms": "Ingredients",
+    "about": "About",
+    "process": "Process",
+    "buy": "Shop Now"
+  },
+  "hero": {
+    "tagline": "Nature's Balance",
+    "title": "The Perfect Harmony of\n5 Premium Mushrooms",
+    "subtitle": "Inspired by thousands of years of East Asian food culture, we have precisely extracted and blended 5 carefully selected functional mushrooms.",
+    "cta_primary": "Explore the Product",
+    "cta_secondary": "View Ingredients",
+    "disclaimer": "This product is a food supplement and is not intended to prevent, diagnose, or treat any disease."
+  },
+  "mushrooms": {
+    "title": "5 Core Ingredients",
+    "subtitle": "Mushrooms long used in traditional East Asian food culture, extracted using modern methods.",
+    "items": {
+      "cordyceps": {
+        "name": "Cordyceps",
+        "latin": "Cordyceps militaris",
+        "origin": "Himalayan Origin",
+        "description": "Native to the Himalayan highlands, Cordyceps has been a prized food ingredient in Tibetan traditional food culture for hundreds of years. Its unique life cycle has long made it a marvel of nature.",
+        "traditional_use": "Tibetan & Chinese Food Culture",
+        "beta_glucan": "β-Glucan 28%"
+      },
+      "lions_mane": {
+        "name": "Lion's Mane",
+        "latin": "Hericium erinaceus",
+        "origin": "Asia & North America",
+        "description": "With its distinctive lion's mane-like appearance, Lion's Mane has long been used in traditional Chinese, Korean, and Japanese cuisine and food culture.",
+        "traditional_use": "East Asian Food Culture",
+        "beta_glucan": "β-Glucan 35%"
+      },
+      "reishi": {
+        "name": "Reishi",
+        "latin": "Ganoderma lucidum",
+        "origin": "Asian Origin",
+        "description": "Reishi has a history of thousands of years in Chinese and Korean traditional food culture, known as the 'Mushroom of Immortality.' Its beautiful glossy appearance frequently appears in artwork.",
+        "traditional_use": "Chinese & Korean Food Culture, 4,000 Years",
+        "beta_glucan": "β-Glucan 30%"
+      },
+      "chaga": {
+        "name": "Chaga",
+        "latin": "Inonotus obliquus",
+        "origin": "Siberia & Northern Europe",
+        "description": "Growing in cold birch forests of Siberia and Northern Europe, Chaga has been used for centuries as a tea ingredient in Russian and Scandinavian traditional beverage culture.",
+        "traditional_use": "Siberian & Russian Food Culture",
+        "beta_glucan": "β-Glucan 25%"
+      },
+      "turkey_tail": {
+        "name": "Turkey Tail",
+        "latin": "Trametes versicolor",
+        "origin": "Worldwide",
+        "description": "Characterized by its vibrant striped pattern resembling a turkey's tail, Turkey Tail is one of the most studied mushrooms worldwide. In Chinese traditional medicine, it is called 'Yunzhi' (雲芝) with a long food culture history.",
+        "traditional_use": "Chinese Traditional Food Culture 'Yunzhi'",
+        "beta_glucan": "β-Glucan 38%"
+      }
+    }
+  },
+  "about": {
+    "badge": "About MYCO BLEND",
+    "title": "Where Tradition Meets\nModern Science",
+    "description1": "MYCO BLEND was born from inspiration drawn from thousands of years of East Asian mushroom food culture. We refine 5 traditionally revered mushrooms using modern extraction techniques to create a premium blend that can be easily enjoyed in everyday life.",
+    "description2": "All raw materials are harvested sustainably, and each batch is independently verified by third-party labs for purity and β-glucan content. Our mission is to honestly deliver the best that nature has to offer to your table.",
+    "stat1_value": "5",
+    "stat1_label": "Core Mushroom Ingredients",
+    "stat2_value": "100%",
+    "stat2_label": "Fruiting Body Extract",
+    "stat3_value": "3rd Party",
+    "stat3_label": "Independent Lab Verified",
+    "stat4_value": "Zero",
+    "stat4_label": "Fillers & Additives"
+  },
+  "process": {
+    "title": "Rigorous 4-Step Manufacturing",
+    "subtitle": "We compromise on nothing at every stage for the highest quality product.",
+    "steps": {
+      "harvest": {
+        "number": "01",
+        "title": "Harvest",
+        "description": "Mushroom fruiting bodies cultivated in optimal growing environments are harvested at peak β-glucan content. All raw materials are sourced through a traceable supply chain."
+      },
+      "extract": {
+        "number": "02",
+        "title": "Extract",
+        "description": "Dual extraction using both water and alcohol captures both water-soluble and fat-soluble compounds. Low-temperature processing minimizes loss of active compounds."
+      },
+      "verify": {
+        "number": "03",
+        "title": "Verify",
+        "description": "Independent third-party certifiers verify β-glucan content, heavy metal absence, mycotoxin safety, and microbial standards separately. Batches failing standards are fully discarded."
+      },
+      "blend": {
+        "number": "04",
+        "title": "Blend",
+        "description": "Five extracts are precisely weighed and mixed in optimal ratios at a GMP-certified facility. Nitrogen-flushed packaging ensures freshness."
+      }
+    }
+  },
+  "cta": {
+    "badge": "Start Today",
+    "title": "Add Nature to Your\nWellness Routine",
+    "subtitle": "MYCO BLEND can be easily mixed into your morning coffee, smoothie, or warm beverage every day.",
+    "primary": "Shop Now",
+    "secondary": "Learn More About Ingredients",
+    "disclaimer": "This product is a food supplement and is not intended to prevent, diagnose, or treat any disease.",
+    "feature1": "Free Shipping (Orders over ₩50,000)",
+    "feature2": "30-Day Satisfaction Guarantee",
+    "feature3": "15% Off Subscription"
+  },
+  "footer": {
+    "brand": "MYCO BLEND",
+    "tagline": "Nature's Balance in Daily Life",
+    "disclaimer_title": "Food Safety Notice",
+    "disclaimer_full": "This product is a food supplement and is not intended to prevent, diagnose, or treat any disease. All descriptions of this product are based on traditional food culture practices and do not claim specific efficacy or effects. Please consult a qualified healthcare professional before consumption.",
+    "links_product": "Product",
+    "links_about": "About",
+    "links_process": "Process",
+    "links_faq": "FAQ",
+    "links_contact": "Contact",
+    "links_privacy": "Privacy Policy",
+    "links_terms": "Terms of Service",
+    "copyright": "© 2024 MYCO BLEND. All rights reserved.",
+    "mfds_note": "Registered with Korea MFDS"
+  }
+}
