@@ -9,9 +9,19 @@ export function Hero() {
 
   useEffect(() => {
     const video = videoRef.current
-    if (video) {
-      video.muted = true
-      video.play().catch(() => {})
+    if (!video) return
+    video.muted = true
+    video.setAttribute('playsinline', '')
+    video.setAttribute('webkit-playsinline', '')
+    const tryPlay = () => {
+      video.play().catch(() => {
+        // iOS sometimes needs a user gesture — show poster instead
+      })
+    }
+    if (video.readyState >= 2) {
+      tryPlay()
+    } else {
+      video.addEventListener('canplay', tryPlay, { once: true })
     }
   }, [])
 
@@ -26,6 +36,7 @@ export function Hero() {
           muted
           playsInline
           preload="auto"
+          poster="/images/hero.png"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/videos/880001953253302356.mp4" type="video/mp4" />

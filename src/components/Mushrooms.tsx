@@ -37,7 +37,7 @@ export function Mushrooms() {
         <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
           <div className="flex items-center justify-center gap-3">
             <div className="w-8 h-px bg-amber" />
-            <span className="text-amber text-sm font-medium tracking-widest uppercase">Ingredients</span>
+            <span className="text-amber text-sm font-medium tracking-widest uppercase">{t('eyebrow') || 'Ingredients'}</span>
             <div className="w-8 h-px bg-amber" />
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-forest">

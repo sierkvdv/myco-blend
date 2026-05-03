@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { useTranslations } from 'next-intl'
+import { useLocale } from 'next-intl'
 
 const studies = [
   {
@@ -116,7 +116,8 @@ const studies = [
 
 export function Research() {
   const [activeMushroom, setActiveMushroom] = useState(0)
-  const [lang, setLang] = useState<'ko' | 'en' | 'ja'>('ko')
+  const locale = useLocale()
+  const lang = (locale === 'ko' || locale === 'en' || locale === 'ja') ? locale : 'en'
 
   const active = studies[activeMushroom]
 
@@ -144,22 +145,7 @@ export function Research() {
               : 'The studies below are peer-reviewed papers published in independent academic journals. They do not constitute product claims — they represent the scientific interest in these compounds.'}
           </p>
 
-          {/* Lang toggle */}
-          <div className="flex justify-center gap-2 mt-6">
-            {(['ko', 'en', 'ja'] as const).map(l => (
-              <button
-                key={l}
-                onClick={() => setLang(l)}
-                className={`px-3 py-1 text-xs font-semibold rounded-full border transition-all ${
-                  lang === l
-                    ? 'bg-green-900 text-white border-green-900'
-                    : 'bg-white text-green-900 border-green-900/30 hover:border-green-900'
-                }`}
-              >
-                {l === 'ko' ? '한국어' : l === 'en' ? 'EN' : '日本語'}
-              </button>
-            ))}
-          </div>
+
         </div>
 
         {/* Mushroom tabs */}
