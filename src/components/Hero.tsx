@@ -9,10 +9,12 @@ export function Hero() {
       {/* Background video */}
       <div className="absolute inset-0">
         <video
-          autoPlay
-          loop
-          muted
-          playsInline
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          playsInline={true}
+          webkit-playsinline="true"
+          preload="auto"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/videos/880001953253302356.mp4" type="video/mp4" />
