@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 const mushroomKeys = ['cordyceps', 'lions_mane', 'reishi', 'chaga', 'turkey_tail'] as const
 
@@ -8,6 +9,14 @@ const mushroomIcons: Record<string, string> = {
   reishi: '🍄',
   chaga: '🪨',
   turkey_tail: '🌈',
+}
+
+const mushroomImages: Record<string, string> = {
+  cordyceps: '/images/cordyceps.png',
+  lions_mane: '/images/lionsmane.png',
+  reishi: '/images/reishi.png',
+  chaga: '/images/chaga.png',
+  turkey_tail: '/images/turkeytail.png',
 }
 
 const mushroomColors: Record<string, { bg: string; accent: string }> = {
@@ -55,8 +64,16 @@ export function Mushrooms() {
                   {String(index + 1).padStart(2, '0')}
                 </div>
 
-                {/* Icon */}
-                <div className="text-3xl mb-4">{mushroomIcons[key]}</div>
+                {/* Mushroom image */}
+                <div className="relative w-full h-40 rounded-lg overflow-hidden mb-4">
+                  <Image
+                    src={mushroomImages[key]}
+                    alt={key}
+                    fill
+                    className="object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
+                </div>
 
                 {/* Name */}
                 <h3 className="font-serif text-xl font-bold text-forest mb-1">
