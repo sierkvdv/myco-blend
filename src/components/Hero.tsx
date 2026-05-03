@@ -6,16 +6,18 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background image */}
+      {/* Background video */}
       <div className="absolute inset-0">
-        <Image
-          src="/images/hero.png"
-          alt="MYCO BLEND mushrooms"
-          fill
-          className="object-cover object-center"
-          priority
-        />
-        <div className="absolute inset-0 bg-beige/75" />
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
+        >
+          <source src="/videos/880001953253302356.mp4" type="video/mp4" />
+        </video>
+        <div className="absolute inset-0 bg-beige/70" />
       </div>
 
       {/* Decorative circles */}
