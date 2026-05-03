@@ -27,8 +27,14 @@ export function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
-      {/* Background video */}
+      {/* Background: video on desktop, image on mobile */}
       <div className="absolute inset-0">
+        {/* Mobile: static image */}
+        <div
+          className="md:hidden absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: 'url(/images/hero.png)' }}
+        />
+        {/* Desktop: video */}
         <video
           ref={videoRef}
           autoPlay
@@ -36,8 +42,7 @@ export function Hero() {
           muted
           playsInline
           preload="auto"
-          poster="/images/hero.png"
-          className="absolute inset-0 w-full h-full object-cover"
+          className="hidden md:block absolute inset-0 w-full h-full object-cover"
         >
           <source src="/videos/880001953253302356.mp4" type="video/mp4" />
         </video>
