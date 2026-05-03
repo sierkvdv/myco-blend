@@ -197,7 +197,7 @@ export function Research() {
                     {study.journal} · {study.year}
                   </p>
                   <h3 className="font-serif text-base font-semibold text-green-900 leading-snug">
-                    "{study.title}"
+                    {study.title}
                   </h3>
                   <p className="text-xs text-green-800/50 mt-1">{study.authors} — {study.institution}</p>
                 </div>
